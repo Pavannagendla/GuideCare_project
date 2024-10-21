@@ -1,0 +1,225 @@
+.travel-details {
+    margin: 50px 20px;
+    width: 1300px;
+    height: 667px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 15.1px 0px #00000040;
+}
+
+.trav-head-text {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.trav-note-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.trav-note {
+    font-size: 24px;
+}
+
+.trav-sec-text {
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.travel-details .manditory-detail {
+    width: 792px;
+    height: 400px;
+    position: relative;
+}
+
+.manditory-detail .man-head-side {
+    gap: 45px;
+}
+
+.manditory-detail .man-head-side span {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.manditory-detail .man-fill-side {
+    position: relative;
+    flex: 1;
+    margin-left: 30px;
+    gap: 35px;
+}
+
+.manditory-detail select {
+    background: #F2F2F2;
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+}
+
+.f-l-name input {
+    width: 227px;
+    height: 39px;
+    border: none;
+    background: #F2F2F2;
+    padding-left: 10px;
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.f-l-name label {
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: 400;
+    background: #F2F2F2;
+    margin-top: 10px;
+    text-wrap: nowrap;
+}
+
+
+.pro-bk-btn {
+    width: 273px;
+    height: 40px;
+    background: #0070CD;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 375px;
+    left: 770px;
+}
+
+@media all and (max-width: 768px) {
+    .travel-details {
+        width: 700px;
+    }
+
+    .manditory-detail input {
+        width: auto;
+    }
+
+    .adult-name {
+        gap: 4px !important;
+    }
+
+    .tic-email-text {
+        width: 32% !important;
+    }
+
+    .travel-details .manditory-detail {
+        width: 620px;
+    }
+
+    .f-l-name label {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+    .pro-bk-btn {
+        width: 180px;
+        height: 40px;
+        background: #0070CD;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        top: 375px;
+        left: 270px;
+    }
+    .pro-bk-btn:hover{
+        color: #0070CD;
+        background: #ffffff;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .travel-details {
+        width: 326px;
+        height: 693px;
+        padding: 8px;
+    }
+    .trav-head-text{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .trav-note-text,
+    .trav-note{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .trav-sec-text{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .travel-details .manditory-detail {
+        width: 310px;
+        height: 450px;
+        display: flex;
+        flex-direction: column !important;
+        position: relative;
+    }
+
+    .manditory-detail .man-head-side {
+        gap: 55px;
+        margin-top: 15px;
+    }
+
+    .manditory-detail .man-fill-side {
+        position: absolute;
+        margin-left: 0px;
+        gap: 40px;
+        top: 35px;
+    }
+
+    .manditory-detail .man-head-side span {
+        font-size: 12px;
+    }
+
+    .manditory-detail select,
+    .f-l-name input {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .f-l-name{
+        display: flex;
+        justify-content: space-between;
+    }
+    .f-l-name input {
+        width: 120px;
+        height: 37px;
+        padding-left: 5px;
+        margin-right: 10px;
+    }
+    .f-l-name .male-female{
+        margin-left: 0 !important;
+        width: 50px;
+        padding: 0;
+    }
+
+    .f-l-name label {
+        font-size: 8px;
+    }
+    .pro-bk-btn {
+        position: absolute;
+        top: 450px;
+        left: 50px;
+        width: 214px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+}

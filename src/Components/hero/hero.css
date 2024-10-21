@@ -1,0 +1,229 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.gradient-text img {
+  width: 62px;
+  height: 48px;
+  margin-left: 70px;
+}
+
+.gradient-text {
+  width: 210px;
+  height: 48px;
+  font-family: 'Inter';
+  font-size: 25px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #C835F8 3.35%, #15B0F8 100%);
+  background-clip: text;
+  color: transparent;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  background-color: transparent;
+}
+
+.gradient-text:active,
+.gradient-text:focus,
+.gradient-text:hover {
+  color: transparent;
+  border-bottom: none;
+}
+
+.hero-right {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero-elements {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 70px;
+}
+
+.hero-elements a {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 700;
+  height: 22px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease, border 0.3s ease;
+  border-bottom: 2px solid transparent; /* Add a transparent border initially */
+}
+
+.hero-elements a.active,
+.hero-elements a:focus,
+.hero-elements a:hover {
+  color: #0070cd;
+  border-bottom: 2px solid #0070cd;
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    width: 360px;
+    height: auto;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .hero-left {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: -12px;
+  }
+
+  .hero-left a img {
+    width: 35px;
+    height: 28px;
+  }
+
+  .hero-left a {
+    height: 50px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -60px;
+  }
+
+  .hero-elements {
+    width: 360px;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    background-color: #F8F9FA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 18px 0 10px 0;
+  }
+
+  .hero-elements a {
+    font-size: 14px;
+    width: 100%;
+    color: #0070CD;
+    margin-left: 20px;
+    border-bottom: 2px solid transparent; /* Add a transparent border initially */
+  }
+
+  .hero-elements a.active,
+  .hero-elements a:focus,
+  .hero-elements a:hover {
+    width: auto;
+    color: #0070cd;
+    border-bottom: 2px solid #0070cd;
+  }
+
+  .navbar-toggler {
+    margin-right: -280px;
+    margin-top: -90px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+  .navbar {
+    width: 768px;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 768px;
+  }
+
+  .hero-left {
+    width: 95%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+    gap: 10px;
+  }
+
+  .hero-left a img {
+    width: 45px;
+    height: 35px;
+  }
+
+  .hero-left a {
+    width: 250px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 0 -35px;
+  }
+
+  .hero-elements {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    background-color: #F8F9FA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 768px;
+    height: 330px;
+  }
+
+  .hero-elements a {
+    width: auto;
+    font-size: 16px;
+    color: #0070CD;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .hero-elements a.active,
+  .hero-elements a:focus,
+  .hero-elements a:hover {
+    color: #0070cd;
+    border-bottom: 2px solid #0070cd;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .navbar-toggler {
+    align-self: flex-end;
+    margin-top: -75px;
+    margin-right: 10px;
+  }
+
+  .collapse.navbar-collapse {
+    width: 100%;
+  }
+}

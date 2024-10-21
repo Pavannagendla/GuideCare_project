@@ -1,0 +1,341 @@
+.specialities-section {
+    width: 98.9vw;
+    height: 979px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+}
+
+.specialities-section .spec-head {
+    height: 44px;
+    font-family: 'Nunito Sans';
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.specialities {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-left: 85px;
+    margin-top: -30px;
+}
+
+.specialities-list-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.speciality-1,
+.speciality-2,
+.speciality-3 {
+    position: relative;
+}
+
+.speciality-1 img,
+.speciality-2 img,
+.speciality-3 img {
+    left: 0px;
+    width: 425px;
+    height: 361px;
+    background: #00000033;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.speciality-1 .block-high,
+.speciality-2 .block-high,
+.speciality-3 .block-high {
+    width: 425px;
+    height: 79px;
+    background: #00000066;
+    position: relative;
+    display: flex;
+    margin-top: 282px;
+    align-items: center;
+}
+
+.speciality-1 .block-high h6,
+.speciality-2 .block-high h6,
+.speciality-3 .block-high h6 {
+    font-family: 'Nunito Sans';
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.specialities-list-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.speciality-4,
+.speciality-5,
+.speciality-6 {
+    position: relative;
+}
+
+.speciality-4 img,
+.speciality-5 img,
+.speciality-6 img {
+    left: 0px;
+    width: 425px;
+    height: 361px;
+    background: #00000033;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.speciality-4 .block-high,
+.speciality-5 .block-high,
+.speciality-6 .block-high {
+    width: 425px;
+    height: 79px;
+    background: #00000066;
+    position: relative;
+    display: flex;
+    margin-top: 282px;
+    align-items: center;
+}
+
+.speciality-4 .block-high h6,
+.speciality-5 .block-high h6,
+.speciality-6 .block-high h6 {
+    font-family: 'Nunito Sans';
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.speciality-1 .block-high img,
+.speciality-2 .block-high img,
+.speciality-3 .block-high img,
+.speciality-4 .block-high img,
+.speciality-5 .block-high img,
+.speciality-6 .block-high img {
+    width: 80px;
+    height: 77px;
+    background: #0070cd;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 0;
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.see-more {
+    position: absolute;
+    height: 33px;
+    font-family: 'Nunito Sans';
+    border: none;
+    align-self: flex-end;
+    right: 0px;
+    cursor: pointer;
+}
+
+.seebtn {
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0070cd;
+    background: none;
+    margin-top: 890px;
+    margin-right: 90px;
+}
+.mb-specialities-section {
+    display: none;
+}
+
+
+@media (max-width: 360px) {
+    .specialities-section {
+        display: block;
+    }
+    .mb-specialities-section {
+        display: none;
+    }
+    .specialities-section {
+        width: 360px;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .specialities-section .spec-head {
+        width: 360px;
+        font-size: 20px;
+        margin-bottom: -80px;
+        margin-top: -90px;
+    }
+
+    .spec-head {
+        width: 178px;
+        height: 27px;
+        font-size: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .specialities-list-1 {
+        flex-direction: column;
+    }
+
+    .specialities-list-2 {
+        display: none;
+    }
+
+    .speciality-1 img,
+    .speciality-2 img,
+    .speciality-3 img {
+        width: 328px;
+        height: 280px;
+        top: 50px;
+        margin-left: -70px;
+    }
+
+    .speciality-1 .block-high,
+    .speciality-2 .block-high,
+    .speciality-3 .block-high {
+        width: 328px;
+        height: 48px;
+        border-radius: 10px;
+        margin-left: -70px;
+
+    }
+
+    .speciality-1 .block-high img,
+    .speciality-2 .block-high img,
+    .speciality-3 .block-high img {
+        width: 62px;
+        height: 48px;
+        border-radius: 10px;
+    }
+
+    .speciality-1 .block-high h6,
+    .speciality-2 .block-high h6,
+    .speciality-3 .block-high h6 {
+        width: 300px;
+        height: 22px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .seebtn {
+        width: 80px;
+        height: 22px;
+        font-size: 16px;
+        margin-top: 1015px;
+        margin-right: 25px;
+    }
+
+    .speciality-2,
+    .speciality-3 {
+        margin-top: -30px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+    .specialities-section {
+        display: none;
+    }
+
+    .mbspecialities-section {
+        width: 768px;
+        height: auto;
+    }
+
+    .mbspec-head {
+        width: 768px;
+        height: 40px;
+        font-size: 32px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mbspecialities-list-1 {
+        width: 700px;
+        gap: 30px;
+        margin-top: 40px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mbspeciality-1 .mbimgs,
+    .mbspeciality-2 .mbimgs,
+    .mbspeciality-3 .mbimgs,
+    .mbspeciality-4 .mbimgs,
+    .mbspeciality-5 .mbimgs,
+    .mbspeciality-6 .mbimgs {
+        width: 320px;
+        height: 240px;
+        top: 50px;
+    }
+    .mbspeciality-1 .mbblock-high,
+    .mbspeciality-2 .mbblock-high,
+    .mbspeciality-3 .mbblock-high,
+    .mbspeciality-4 .mbblock-high,
+    .mbspeciality-5 .mbblock-high,
+    .mbspeciality-6 .mbblock-high {
+        width: 320px;
+        height: 54px;
+        border-radius: 10px;
+        background: #00000066;
+        position: relative;
+        display: flex;
+        margin-top: -54px;
+    }
+    .mbspeciality-1 .mbblock-high .mbarrow,
+    .mbspeciality-2 .mbblock-high .mbarrow,
+    .mbspeciality-3 .mbblock-high .mbarrow,
+    .mbspeciality-4 .mbblock-high .mbarrow,
+    .mbspeciality-5 .mbblock-high .mbarrow,
+    .mbspeciality-6 .mbblock-high .mbarrow {
+        width: 65px;
+        height: 54px;
+        border-radius: 10px;
+        background: #0070cd;
+        margin-left: auto;
+        padding: 10px;
+        position: absolute;
+        right: 1px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .mbspeciality-1 .mbblock-high .mbh6,
+    .mbspeciality-2 .mbblock-high .mbh6,
+    .mbspeciality-3 .mbblock-high .mbh6,
+    .mbspeciality-4 .mbblock-high .mbh6,
+    .mbspeciality-5 .mbblock-high .mbh6,
+    .mbspeciality-6 .mbblock-high .mbh6 {
+        width: 300px;
+        height: 22px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+    .mbseebtn {
+        width: 720px;
+        height: 36px;
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 20px;
+        color: #0070cd;
+        display: flex;
+        border: none;
+        background: none;
+        justify-content: right;
+    }
+}

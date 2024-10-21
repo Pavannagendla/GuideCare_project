@@ -1,0 +1,141 @@
+.map {
+  width: calc(98.9vw - 220px);
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.mapline1 {
+  width: 1226px;
+  height: 8px;
+  background: linear-gradient(90deg, #3989DE 0%, #73A7DD 34.3%, #0751C6 100%);
+  opacity: 1;
+  border: none;
+  margin-left: 20px;
+}
+
+.map-info {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.maptext1 {
+  font-family: 'Nunito Sans';
+  font-size: 24px;
+  font-weight: 700;
+  color: #232323;
+  margin-top: 24px;
+  border: none;
+}
+
+.map-info img {
+  width: 960px;
+  height: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+.maptext2 {
+  height: 100px;
+  width: 800px;
+  font-family: 'Nunito Sans';
+  font-size: 24px;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 24px;
+  text-align: center;
+  margin-left: 260px;
+  margin-bottom: 24px;
+}
+
+  .mapline2 {
+    width: 1226px;
+    height: 8px;
+    background: linear-gradient(90deg, #3989DE 0%, #73A7DD 34.3%, #0751C6 100%);
+    opacity: 1;
+    border: none;
+    margin-left: 20px;
+  }
+
+  @media (max-width:360px) {
+    .map {
+      width: 360px;
+      height: 235px;
+    }
+    .mapline1,
+    .mapline2 {
+      width: 320px;
+      height: 4px;
+      margin-left: 20px;
+    }
+    .map-info {
+      width: 360px;
+    }
+    .maptext1 {
+      width: 320px;
+      height: 20px;
+      font-size: 14px;
+      margin-left: 20px;
+      font-weight: 400;
+      margin-top: 0px;
+    }
+    .maptext2 {
+      width: 336px;
+      height: 20px;
+      font-size: 14px;
+      margin-left: 10px;
+      font-weight: 400;
+    }
+    .map-info img {
+      width: 320px;
+      height: 180px;
+      margin-top: 10px;
+    }
+  }
+
+  @media (min-width: 361px) and (max-width: 768px) {
+    .map {
+      width: 768px;
+      height: 350px;
+      margin-top: 40px;
+    }
+    .mapline1,
+    .mapline2 {
+      width: 640px;
+      height: 4px;
+      margin-left: 60px;
+    }
+    .map-info {
+      width: 640px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .maptext1 {
+      width: 320px;
+      height: 20px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .maptext2 {
+      width: 560px;
+      height: 20px;
+      font-size: 14px;
+      font-weight: 400;
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+    .map-info img {
+      width: 420px;
+      height: 180px;
+      margin-top: 0px;
+      margin-left: 100px;
+    }
+  }

@@ -1,0 +1,600 @@
+.hotel_bedroom {
+  width: 100%;
+  display: flex;
+  padding: 30px 0px 0px 100px;
+}
+.name_hot {
+  width: 790px;
+  height: 229px;
+  box-shadow: 0px 4px 15px 0px #00000020;
+  padding: 10px 30px 10px 30px;
+}
+.first_n {
+  width: 70px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.first_place {
+  width: 240px;
+  height: 44px;
+  padding: 11px 12px 12px 12px;
+  border-radius: 4px;
+  background: #f2f2f2;
+  border: none;
+}
+.mob_numb {
+  width: 99px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.phone_input_place {
+  width: 24px;
+  height: 24px;
+}
+.double_bed {
+  gap: 70px;
+}
+.room_sup {
+  width: 491px;
+  height: 88px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.dollar_hot {
+  width: 127px;
+  height: 39px;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 700;
+  color: #f00e0e;
+}
+.per_n {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  width: 127px;
+  height: 39px;
+  color: #f00e0e;
+}
+.superior {
+  gap: 50px;
+}
+.reni {
+  width: 742px;
+  height: 193px;
+  padding: 0px 0px 98px 0px;
+  box-shadow: 0px 0px 9.6px 0px #00000040;
+}
+.top_reni {
+  padding: 0px 0px 0px 30px;
+  width: 742px;
+  height: 95px;
+  border-radius: 8px 0px 0px 0px;
+  border: 0.5px solid #8dd3bb;
+}
+.cvk_hotel {
+  width: 63px;
+  height: 63px;
+  border-radius: 4px;
+}
+.race_course {
+  width: 472px;
+  height: 33px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.locat_ho {
+  width: 14px;
+  height: 16px;
+}
+.particular_loc {
+  width: 328px;
+  height: 19px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.dot_left,
+.dot_right {
+  width: 36px;
+  border: 1px;
+}
+.building_hotel {
+  width: 48px;
+  height: 48px;
+}
+.down_reni {
+  gap: 70px;
+  padding: 20px 0px 0px 40px;
+}
+.left_superior {
+  width: 463px;
+  height: 468px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px #00000040;
+}
+.pic_room {
+  padding: 20px 0px 0px 20px;
+  gap: 20px;
+}
+.cvk_hotelimg {
+  width: 121px;
+  height: 120px;
+  border-radius: 12px;
+}
+.cvk_park {
+  width: 257px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #112211;
+}
+.or_bed {
+  width: 257px;
+  height: 54px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #112211;
+}
+.rate_ho {
+  gap: 10px;
+}
+.rating_ho {
+  width: 40px;
+  height: 32px;
+  padding: 4px 0px 8px 8px;
+  border-radius: 4px;
+  border: 1px solid #8dd3bb;
+}
+.rev_ho {
+  width: 122px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.room_linenew,
+.room_line_1,
+.room_line_2 {
+  width: 402px;
+  height: 0.5px;
+  color: #112211;
+}
+.lo_reo {
+  width: 90px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #112211;
+}
+.room_p {
+  gap: 200px;
+}
+.price_ho {
+  width: 94px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.ro_ni {
+  width: 128px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.do_ho {
+  width: 39px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.hotel_bedroom_tab {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hotel_bedroom {
+    display: none;
+  }
+  .hotel_bedroom_tab {
+    width: 768px;
+    display: block;
+  }
+  .double_bed_1 {
+    gap: 102px;
+    padding-left: 90px;
+    padding-top: 30px;
+  }
+  .room_sup_1 {
+    width: 380px;
+    height: 88px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .dollar_hot_1 {
+    width: 127px;
+    height: 39px;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    color: #f00e0e;
+  }
+  .per_n_1 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    width: 127px;
+    height: 39px;
+    color: #f00e0e;
+  }
+  .reni_new {
+    width: 100%;
+    padding: 20px 0px 0px 90px;
+  }
+  .reni_1 {
+    width: 586px;
+    height: 160px;
+    padding: 0px 0px 98px 0px;
+    box-shadow: 0px 0px 9.6px 0px #00000040;
+    border-radius: 10px;
+  }
+  .top_reni_1 {
+    width: 586px;
+    height: 95px;
+    border-radius: 8px 8px 0px 0px;
+    border: 0.5px solid #8dd3bb;
+    gap: 30px;
+    padding: 9px 0px 0px 12px;
+  }
+  .cvk_hotel_1 {
+    width: 63px;
+    height: 63px;
+    border-radius: 4px;
+  }
+  .race_course_1 {
+    width: 436px;
+    height: 38px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .locat_ho_1 {
+    width: 14px;
+    height: 16px;
+  }
+  .particular_loc_1 {
+    width: 328px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .down_reni_1 {
+    gap: 37px;
+    padding: 20px 0px 0px 40px;
+  }
+  .dot_left_1,
+  .dot_right_1 {
+    width: 36px;
+    border: 1px;
+  }
+  .left_superior_1 {
+    width: 590px;
+    height: 468px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #00000040;
+  }
+  .new_left {
+    padding: 20px 0px 0px 90px;
+  }
+  .pic_room_1 {
+    padding: 20px 0px 0px 20px;
+    gap: 20px;
+  }
+  .cvk_hotelimg_1 {
+    width: 121px;
+    height: 120px;
+    border-radius: 12px;
+  }
+  .cvk_park_1 {
+    width: 257px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #112211;
+  }
+  .or_bed_1 {
+    width: 257px;
+    height: 54px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #112211;
+  }
+  .rate_ho_1 {
+    gap: 10px;
+  }
+  .rating_ho_1 {
+    width: 40px;
+    height: 32px;
+    padding: 4px 0px 8px 8px;
+    border-radius: 4px;
+    border: 1px solid #8dd3bb;
+  }
+  .rev_ho_1 {
+    width: 122px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .room_linenew,
+  .room_line_1_new,
+  .room_line_2_new {
+    width: 560px;
+    height: 0.5px;
+    color: #112211;
+  }
+  .price_ho_new {
+    width: 94px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .lo_reo_1 {
+    width: 90px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #112211;
+  }
+  .room_p_1 {
+    justify-content: space-between;
+  }
+  .ro_ni_1 {
+    width: 128px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .do_ho_1 {
+    width: 39px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .name_hotel_new {
+    padding: 0px 0px 0px 90px;
+  }
+  .name_hot_1 {
+    width: 590px;
+    height: 229px;
+    box-shadow: 0px 4px 15px 0px #00000040;
+    padding: 15px 30px 10px 30px;
+    border-radius: 10px;
+  }
+  .first_n_1 {
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .first_place_1 {
+    width: 240px;
+    height: 44px;
+    padding: 11px 12px 12px 12px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    border: none;
+  }
+
+  .phone_input_place_1 {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (max-width: 360px) {
+  .hotel_bedroom {
+    display: none;
+  }
+  .hotel_bedroom_tab {
+    width: 360px;
+    display: block;
+  }
+  .double_bed_1 {
+    gap: 80px;
+    padding-left: 8px;
+    padding-top: 20px;
+  }
+  .room_sup_1 {
+    width: 192px;
+    height: 22px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .dollar_hot_1 {
+    width: 127px;
+    height: 39px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    color: #f00e0e;
+  }
+  .per_n_1 {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 700;
+    width: 127px;
+    height: 39px;
+    color: #f00e0e;
+  }
+  .reni_new {
+    width: 100%;
+    padding: 20px 0px 20px 10px;
+  }
+  .reni_1 {
+    width: 344px;
+    height: 119px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .top_reni_1 {
+    width: 345px;
+    height: 95px;
+    border-radius: 8px 8px 0px 0px;
+    border: 0.5px solid #8dd3bb;
+    gap: 30px;
+    padding: 9px 0px 0px 12px;
+  }
+  .cvk_hotel_1 {
+    width: 34px;
+    height: 34px;
+    border-radius: 4px;
+  }
+  .race_course_1 {
+    width: 236px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .locat_ho_1 {
+    width: 12px;
+    height: 12px;
+  }
+  .particular_loc_1 {
+    width: 235px;
+    height: 14px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .down_reni_1 {
+    gap: 10px;
+    padding: 15px 0px 0px 8px;
+  }
+  .date_hot_1 {
+    width: 94px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .dot_left_1,
+  .dot_right_1 {
+    width: 36px;
+    border: 1px;
+  }
+  .building_hotel {
+    width: 30px;
+    height: 32px;
+  }
+  .left_superior_1 {
+    width: 334px;
+    height: 464px;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  .new_left {
+    padding: 0px 0px 0px 14px;
+  }
+  .pic_room_1 {
+    padding: 20px 0px 0px 20px;
+    gap: 20px;
+  }
+  .cvk_hotelimg_1 {
+    width: 121px;
+    height: 120px;
+    border-radius: 12px;
+  }
+  .cvk_park_1 {
+    width: 185px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #112211;
+  }
+  .or_bed_1 {
+    width: 160px;
+        height: 54px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #112211;
+  }
+  .rate_ho_1 {
+    gap: 10px;
+  }
+  .rating_ho_1 {
+    width: 40px;
+    height: 32px;
+    padding: 4px 0px 8px 8px;
+    border-radius: 4px;
+    border: 1px solid #8dd3bb;
+  }
+  .rev_ho_1 {
+    width: 122px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .room_linenew,
+  .room_line_1_new,
+  .room_line_2_new {
+    width: 305px;
+    height: 0.5px;
+    color: #112211;
+  }
+  .price_ho_new {
+    width: 71px;
+    height: 19px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .lo_reo_1 {
+    width: 90px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #112211;
+  }
+  .room_p_1 {
+    justify-content: space-between;
+  }
+  .ro_ni_1 {
+    width: 128px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .do_ho_1 {
+    width: 39px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .name_hotel_new {
+    padding: 0px 0px 0px 14px;
+  }
+  .name_hot_1 {
+    width: 336px;
+    height: 336px;
+    box-shadow: 0px 4px 15px 0px #00000040;
+    padding: 15px 30px 10px 16px;
+    border-radius: 10px;
+  }
+  .first_h_1  {
+    flex-direction: column;
+  }
+  .first_n_1 {
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .first_place_1 {
+    width: 240px;
+    height: 44px;
+    padding: 11px 12px 12px 12px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    border: none;
+  }
+  .mobi_number {
+    
+  }
+  .phone_input_place_1 {
+    width: 24px;
+    height: 24px;
+  }
+}

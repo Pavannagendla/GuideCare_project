@@ -1,0 +1,378 @@
+.main-review-page {
+    width: 100%;
+    height: auto;
+}
+
+.main-review-page {
+    width: 100%;
+    padding: 30px 100px 70px 70px;
+}
+
+.rightside-review {
+    width: 756px;
+    height: auto;
+}
+
+.leftside-review {
+    width: 500px;
+    padding: 0px 50px 0px 50px;
+}
+
+.leftside-review img {
+    width: 400px;
+    height: 247px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.success-msg {
+    width: 704px;
+    height: 64px;
+    border: 1px solid #007B65;
+    border-radius: 8px;
+    padding: 16px 16px 16px 24px;
+    background: #EAFFFB;
+    color: #7D7D7D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.head-text ,
+.find-head-msg .hotel-text {
+    color: #605DEC;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.con-no-text,
+.dept-head-summary,
+.arr-head-summary {
+    color: #7D7D7D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.success-text p {
+    color: #7C8DB0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.head-summary,
+.price-brk-head .price-brk-text,
+.payment-head,
+.share-trav-head span,
+.flight-route-head,
+.shop-head-msg span {
+    color: #232323;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.dept-content,
+.arr-content {
+    width: 756px;
+    height: 72px;
+    border-radius: 4px;
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #CBD4E6;
+}
+
+.dept-content img,
+.arr-content img {
+    height: 40px;
+    width: 40px;
+}
+
+.dept-content span,
+.arr-content span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dept-content span:nth-child(1),
+.arr-content span:nth-child(1) {
+    color: #27273F;
+}
+
+.dept-content span:nth-child(2),
+.arr-content span:nth-child(2) {
+    color: #7D7D7D;
+}
+
+.dept-footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.price-brk-down {
+    width: 400px;
+    position: relative;
+}
+
+.price-details span,
+.share-trav-itinerary p,
+.shop-head-msg p,
+.find-head-msg p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.price-details span:last-child {
+    color: #36374A;
+    padding: 15px 0px 15px 0px;
+    font-weight: 600;
+}
+
+.price-amt-line1,
+.price-amt-line2 {
+    width: 400px;
+    border: 1px solid #CBD4E6;
+    /* border: 1px solid black; */
+    position: absolute;
+}
+
+.price-amt-line1 {
+    top: 250px;
+}
+
+.price-amt-line2 {
+    top: 310px;
+}
+
+.c-payment-method .payment-card {
+    background: linear-gradient(180deg, #EB568C 0%, #ED5E76 100%);
+    box-shadow: 4px 4px 16px 0px #FFFFFF33 inset;
+    box-shadow: -4px -4px 16px 0px #0000001A inset;
+    width: 300px;
+    height: 188px;
+    border-radius: 16px;
+    padding: 20px;
+    color: #F6F6FE;
+}
+
+.payment-card-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.payment-card-no {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.payment-card-date {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.share-trav-itinerary input {
+    width: 400px;
+    height: 48px;
+    border: 1px solid #A1B0CC;
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.share-trav-btns button {
+    padding: 12px 20px 12px 20px;
+    border-radius: 4px;
+    color: #605DEC;
+    background: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+
+.share-trav-btns button:hover {
+    color: #fff;
+    background: #605DEC;
+}
+
+.share-email-text {
+    width: 157px;
+    height: 48px;
+}
+
+.share-add-text {
+    width: 133px;
+    height: 48px;
+}
+
+.flight-route-img {
+    height: 400px;
+    width: 755px;
+}
+
+.shop-head-msg .hotel-text{
+    color: #605DEC;
+}
+
+.flight-bk-hotel-1,
+.flight-bk-hotel-2,
+.flight-bk-hotel-3,
+.flight-bk-hotel-4,
+.find-bk-car-1,
+.find-bk-car-2 {
+    box-shadow: 0px 12px 32px 0px #0000000D;
+    box-shadow: 0px 2px 4px 0px #1C054D1A;
+}
+.hotel-des .flight-bk-text{
+    color: #6E7491;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flight-bk-hotel-1 .f-bk-foot-text,
+.flight-bk-hotel-2 .f-bk-foot-text,
+.flight-bk-hotel-3 .f-bk-foot-text,
+.flight-bk-hotel-4 .f-bk-foot-text,
+.find-bk-car-1 .f-bk-foot-text,
+.find-bk-car-2 .f-bk-foot-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7C8DB0;
+}
+.hotel-btn button,
+.find-exp-btn button{
+    font-size: 18px;
+    font-weight: 400;
+    color: #605DEC;
+    border: 1px solid #605DEC;
+    width: 162px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px 20px 12px 20px;
+    text-wrap: nowrap;
+}
+.hotel-btn button:hover,
+.find-exp-btn button:hover{
+    background: #605DEC;
+    color: #fff;
+}
+.find-exp-btn button{
+    width: 207px;
+    height: 48px;
+}
+
+@media all and (max-width: 768px) {
+
+    .main-review-page {
+        width: 700px;
+        padding: 0;
+        flex-direction: column !important;
+    }
+    
+    .rightside-review,
+    .dept-content,
+    .arr-content,
+    .flight-route-img,
+    .leftside-review {
+        width: 700px;
+    }
+    .leftside-review{
+        padding: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        text-align: center ;
+    }  
+    .leftside-review .shop-hotels{
+        margin-top: 50px;
+    }
+    .leftside-review img {
+        width: 300px;
+        height: 200px;
+    }
+    .price-brk-down,
+    .shop-head-msg {
+        width: 350px;
+    }
+   
+}
+
+@media all and (max-width: 360px) {
+    .main-review-page {
+        width: 360px;
+        padding: 0 15px 0 15px;
+        flex-direction: column !important;
+    }
+    
+    .rightside-review,
+    .dept-content,
+    .arr-content,
+    .price-brk-down,
+    .leftside-review,
+    .c-payment-method,
+    .share-trav-itinerary input {
+        width: 330px;
+    }
+    .success-msg {
+        width: 323px;
+        height: 72px;
+        padding: 16px 16px 16px 24px;
+        font-size: 12px;
+    }
+    .success-msg i{
+        font-size: 18px;
+    }
+    .head-text, 
+    .find-head-msg .hotel-text,
+    .head-summary, 
+    .price-brk-head .price-brk-text, 
+    .payment-head, .share-trav-head span, 
+    .flight-route-head, 
+    .shop-head-msg span,
+    .con-no-text, 
+    .dept-head-summary, 
+    .arr-head-summary,
+    .success-text p,
+    .price-details span, 
+    .share-trav-itinerary p, 
+    .shop-head-msg p, 
+    .find-head-msg p,
+    .share-trav-itinerary input,
+    .share-trav-btns button {
+       font-size: 12px;
+    }
+    .dept-content span:nth-child(1), 
+    .arr-content span:nth-child(1),
+    .dept-content span:nth-child(2), 
+    .arr-content span:nth-child(2){
+        font-size: 10px;
+    }
+    .dept-content img, .arr-content img {
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+    }
+    .c-payment-method .payment-card{
+        margin-left: 14px;
+    }
+    .share-trav-btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .rightside-review .flight-route-img{
+        width: 359px;
+        height: 190px;
+        margin: -17px;
+    }
+    .leftside-review{
+        padding: 0 !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .flight-bk-hotel-3,
+    .flight-bk-hotel-4{
+        display: none;
+    }
+}

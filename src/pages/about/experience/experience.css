@@ -1,0 +1,206 @@
+
+.abt-section {
+    width: calc(98.9vw - 40px);
+    height: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.abt-header .backg {
+    width: calc(98.9vw);
+    height: 650px;   
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.newdoc .smallb {
+    width: 324px;
+    height: 293.96px;
+    margin-top: 150px;
+    margin-left: 60px;
+    display: flex;
+    position: absolute;
+}
+.abt-header .aH2 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 111px 0 0 480px;
+}
+.abt-header .aH4 {
+    position: absolute;
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 600;
+    margin: 189px 0 0 469px;
+}
+.abt-header .aP1 {
+    width: 890px;
+    position: absolute;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin: 251px 0 0 469px;
+}
+.abt-header .aP2 {
+    width: 870px;
+    position: absolute;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin: 341px 0 0 469px;
+
+}
+.abt-header .abtn{
+    width: 379px;
+    height: 67px;
+    border-radius: 10px;
+    position: absolute;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 540px 0 0 469px;
+    background: #22C55E;
+    color: #FFFF;
+    border: none;
+}
+
+@media (max-width: 360px) {
+.abt-section {
+    width: 360px;
+    height: 370px;
+}
+.abt-header .backg {
+    width: 360px;
+    height: 370px;
+    position: absolute;
+}
+.newdoc .smallb {
+    width: 98px;
+    height: 89px;
+    margin-top: 43px;
+    margin-left: 15px;
+}
+.abt-header .aH2 {
+    width: 201px;
+    height: 22px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 58px;
+    margin-left: 126px;
+}
+.abt-header .aH4 {
+    width: 219px;
+    height: 32px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: #232323;
+    margin-top: 86px;
+    margin-left: 128px;
+}
+.abt-header .aP1 {
+    width: 328px;
+    height: 48px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #4D4D4D;
+    margin-left: 10px;
+    margin-top: 146px;
+}
+.abt-header .aP2 {
+    width: 328px;
+    height: 96px;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #4D4D4D;
+    margin-left: 10px;
+    margin-top: 210px;
+}
+.abt-header .abtn {
+    width: 217px;
+    height: 39px;
+    padding: 10px 6px 10px 6px;
+    gap: 10px;
+    border-radius: 10px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    background: #22C55E;
+    color: #FFFF;
+    border: none;
+    margin-top: 318px;
+    margin-left: 60px;
+}
+}
+@media (min-width: 361px) and (max-width: 768px) {
+.abt-section {
+    width: 768px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+}
+.abt-header .backg {
+    width: 768px;
+    height: 630px;
+}
+.newdoc .smallb {
+    width: 220px;
+    height: 196px;
+    /* top: 178px; */
+    margin-left: 50px;
+    margin-top: 86px;
+}
+.abt-header .aH2 {
+    font-size: 28px;
+    font-weight: 700;
+    width: 360px;
+    margin-left: 342px;
+}
+.abt-header .aH4 {
+    margin-left: 342px;
+    font-size: 24px;
+    margin-top: 166px;
+    /* top: 223px; */
+    font-weight: 600;
+    width: 372px;
+}
+.abt-header .aP1 {
+    width: 692px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 67px;
+    margin-top: 315px;
+    /* top: 318px; */
+}
+.abt-header .aP2 {
+    width: 692px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 67px;
+    margin-top: 384px;
+    /* top: 298px; */
+}
+.abt-header .abtn  {
+    width: 286px;
+    height: 55px;
+    padding: 10px 6px 10px 6px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 522px;
+    margin-left: 240px;
+}
+}

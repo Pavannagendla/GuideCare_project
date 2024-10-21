@@ -1,0 +1,368 @@
+.flight-payment {
+    height: auto;
+    width: 100vw;
+    position: relative;
+}
+
+.payment-method-details {
+    position: relative;
+    width: 100%;
+    padding: 70px;
+}
+
+.payment-leftside .payment-method,
+.payment-leftside .credit-card-detail,
+.payment-leftside .create-account,
+.payment-leftside .cancellation-pol {
+    width: 682px;
+}
+
+.payment-method span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #605DEC;
+}
+
+.payment-method p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7C8DB0;
+}
+
+.payment-method .payment-btns button,
+.cancellation-pol .can-pol-btns button {
+    border: none;
+    background: #FFFFFF;
+    color: #605DEC;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.payment-method .payment-btns button:hover,
+.cancellation-pol .can-pol-btns button:hover {
+    color: #FFFFFF;
+    background: #605DEC;
+}
+
+.credit-card-detail span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6E7491;
+}
+
+.credit-card-detail .credit-mon-yr {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7C8DB0;
+}
+
+.credit-card-detail .cc-no,
+.credit-card-detail .cc-name,
+.create-account .mail-inputs input {
+    width: 480px;
+    height: 48px;
+    border: 1px solid #A1B0CC;
+    padding: 8px 12px 8px 12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    border-radius: 5px;
+}
+
+.credit-card-detail .card-date .exp-date-text,
+.credit-card-detail .card-date .cvv-text {
+    width: 240px;
+    height: 48px;
+    border: 1px solid #A1B0CC;
+    padding: 8px 12px 8px 12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    border-radius: 5px;
+}
+
+.credit-card-detail .card-date .cvv-text {
+    width: 216px;
+}
+
+.create-account span,
+.cancellation-pol span {
+    color: #232323;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.create-account p,
+.chk-box-btn label,
+.cancellation-pol p {
+    color: #7D7D7D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.create-account .or-text {
+    color: #7D7D7D;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    width: 480px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.create-account .soc-media-acc a {
+    width: 480px;
+    border: 1px solid #605DEC;
+    color: #605DEC;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.payment-method-details .payment-rightside {
+    width: 400px;
+    height: 364px;
+    box-shadow: 0px 0px 4px 0px #00000040;
+    border-radius: 12px;
+    padding: 30px 30px 30px 25px;
+}
+
+.payment-rightside .luf-airline-box .airline-name img {
+    width: 60px;
+    height: 60px;
+}
+
+.payment-rightside .luf-airline-box .airline-name span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #232323;
+}
+
+.time-amt-btn {
+    width: 276px;
+}
+
+.airline-timing {
+    height: 22px;
+}
+
+.airline-timing span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.airline-amt-details {
+    height: 112px;
+    width: 270px;
+}
+
+.airline-amt-details span {
+    color: #27273F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.confirm-pay-btn button {
+    height: 47px;
+    width: 173px;
+    background: #0070CD;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.confirm-pay-btn button:hover {
+    color: #0070CD;
+    background: white;
+}
+
+.airline-timing span {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.airline-time-line {
+    width: 108px;
+    border: 1px solid #7D7D7D;
+    height: 1px;
+}
+
+@media all and (max-width: 768px) {
+    .flight-payment {
+        width: 768px;
+    }
+
+    .payment-method-details {
+        padding: 30px;
+        flex-direction: column !important;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .payment-rightside .luf-airline-box .airline-name img {
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+@media all and (max-width: 360px) {
+    .flight-payment {
+        width: 360px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .flight-process {
+        width: 330px;
+    }
+    .flight-process .process-label{
+        font-size: 12px;
+    }
+    .payment-method-details {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
+    .payment-method-details .payment-rightside {
+        width: 299px;
+        height: 243px;
+        padding: 12px;
+    }
+
+    .payment-rightside .luf-airline-box .airline-name img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .payment-rightside .luf-airline-box .airline-name span {
+        font-size: 12px;
+    }
+
+    .airline-name {
+        width: 278px;
+    }
+
+    .time-amt-btn {
+        width: 254px;
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        margin: 12px !important;
+    }
+
+    .airline-timing {
+        height: 22px;
+        text-wrap: nowrap;
+    }
+
+    .airline-timing span {
+        font-size: 12px;
+    }
+
+    .airline-amt-details {
+        height: 88px;
+        width: 255px;
+    }
+
+    .airline-amt-details span {
+        font-size: 12px;
+    }
+
+    .confirm-pay-btn button {
+        height: 38px;
+        width: 129px;
+        font-size: 12px;
+    }
+
+    .airline-timing span {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .airline-time-line {
+        width: 50px;
+    }
+
+    .payment-leftside {
+        width: 360px;
+    }
+
+    .payment-leftside .payment-method,
+    .payment-leftside .credit-card-detail,
+    .payment-leftside .create-account,
+    .payment-leftside .cancellation-pol {
+        width: 360px;
+        padding: 0 15px 0 15px;
+    }
+
+    .payment-method span,
+    .credit-card-detail span,
+    .create-account span,
+    .cancellation-pol span {
+        font-size: 12px;
+    }
+
+    .payment-method p,
+    .credit-card-detail p,
+    .create-account p,
+    .cancellation-pol p,
+    .credit-card-detail .card-date .exp-date-text, 
+    .credit-card-detail .card-date .cvv-text,
+    .credit-card-detail .credit-mon-yr {
+        font-size: 10px;
+    }
+
+    .payment-method .payment-btns button,
+    .cancellation-pol .can-pol-btns button {
+        font-size: 12px;
+        padding: 12px;
+    }
+    .credit-card-detail .cc-no, 
+    .credit-card-detail .cc-name, 
+    .create-account .mail-inputs input,
+    .chk-box-btn label {
+        width: 305px;
+        height: 30px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .credit-card-detail .card-date .exp-date-text{
+        width: 196px;
+        height: 30px;
+    } 
+    .credit-card-detail .card-date .cvv-text {
+        width: 77px;
+        height: 30px;
+    }
+    .chk-box-btn input{
+        width: 16px;
+        height: 16px;
+        margin-top: 4px;
+    }
+    .create-account .soc-media-acc i{
+        margin: 0 !important;
+        padding: 0px 10px 0 20px !important;
+    }
+    .create-account .soc-media-acc a {
+        width: 329px;
+        height: 48px;
+        padding: 15px 12px 12px 12px;
+        text-wrap: nowrap;
+        font-size: 10px;
+    }
+    .create-account .or-text {
+        font-size: 10px;
+        width: 360px;
+    }
+
+}

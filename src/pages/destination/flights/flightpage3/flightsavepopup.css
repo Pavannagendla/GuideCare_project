@@ -1,0 +1,65 @@
+.popup-inner{
+    position: absolute;
+    top: 485px;
+    left: 414px;
+    height: 267px;
+    width: 548px;
+    border-radius: 12px;
+    border: 1px solid #CBD4E6;
+    background: #FFFFFF;
+    padding: 40px;
+    z-index: 1000;
+}
+.popup-head{
+    font-size: 24px;
+    font-weight: 700;
+    color: #232323;
+}
+.popup-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+.close-btn, .upgrade-btn{
+    font-size: 18px;
+    font-weight: 400;
+    color: #605DEC;
+    background: white;
+    padding: 5px 12px 5px 12px;
+    border: 1px solid #605DEC;
+    border-radius: 4px;
+}
+.close-btn:hover, .upgrade-btn:hover{
+    background: #605DEC;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+    .popup-inner{
+        top: 485px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .popup-inner{
+        top: 250px;
+        left: 10px;
+        width: 342px;
+        height: 148px;
+        z-index: 1200;
+        padding: 15px;
+    }
+    .popup-head{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .popup-para{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .close-btn, .upgrade-btn{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

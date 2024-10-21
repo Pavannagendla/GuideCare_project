@@ -1,0 +1,173 @@
+.flight-important {
+    margin-top: 50px;
+    width: 1250px;
+}
+
+.flight-important .imp-head {
+    background: #E66161;
+    width: 360px;
+    height: 42px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flight-important .trip-info {
+    width: 1230px;
+    margin-top: 10px;
+    height: 266px;
+}
+
+.trip-info-head-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.baggage-guideline {
+    width: 1230px;
+    height: 320px;
+}
+
+.preflight-chklist {
+    width: 1230px;
+    height: 244px;
+}
+
+.trip-list li {
+    list-style-type: disc;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7D7D7D;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.note-text {
+    color: #000000;
+}
+
+.dis-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.pin-state {
+    width: 1, 218px;
+    height: 221px;
+    padding: 22px 40px 22px 40px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 0px 0px 15.1px 0px #00000040;
+    margin-top: 50px;
+}
+
+.enter-data input {
+    width: 326px;
+    height: 71px;
+    color: #7D7D7D;
+    border-radius: 4px;
+    padding: 11px 12px 12px 12px;
+    margin-top: 30px;
+    border: none;
+}
+
+.pin-state-text {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.req-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #7D7D7D;
+}
+
+@media all and (max-width: 768px) {
+
+    .flight-important,
+    .flight-important .trip-info,
+    .baggage-guideline,
+    .preflight-chklist,
+    .pin-state {
+        width: 700px;
+        height: auto !important;
+        margin-top: 40px;
+    }
+
+    .flight-important .trip-info {
+        margin-top: 0;
+    }
+
+    .enter-data input {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 360px) {
+
+    .flight-important,
+    .flight-important .trip-info,
+    .baggage-guideline,
+    .preflight-chklist,
+    .pin-state {
+        width: 318px;
+        height: 302px;
+        height: auto !important;
+        margin-top: 40px;
+    }
+
+    .flight-important .trip-info {
+        margin-top: 0;
+    }
+
+    .flight-important .imp-head {
+        width: 141px !important;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .trip-list li {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .trip-info-head-text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .note-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .pin-state {
+        padding: 8px;
+    }
+
+    .pin-state-text {
+        font-size: 12px;
+    }
+
+    .req-text {
+        font-size: 10px;
+    }
+
+    .enter-data {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .enter-data input {
+        width: 300px;
+        height: 39px;
+        font-size: 10px;
+    }
+}

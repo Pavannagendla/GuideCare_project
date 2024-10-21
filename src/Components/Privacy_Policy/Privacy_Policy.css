@@ -1,0 +1,25 @@
+:root{
+    --text-color:#005893;
+    --secondary-color:#28edae;
+}
+/* change the class name */
+
+.privacy_policy .container-fluid {
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+}
+
+.privacy_policy h1{
+    color: var(--text-color);
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+}
+.privacy_policy h2{
+    color: var(--secondary-color);
+    padding: 5px 0px 5px 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans';
+}

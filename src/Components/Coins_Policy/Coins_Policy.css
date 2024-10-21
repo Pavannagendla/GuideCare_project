@@ -1,0 +1,11 @@
+:root{
+    --text-color:#024846;
+    --secondary-color:#28edae;
+}
+
+.Coins_Policy h1{
+    color: var(--text-color);
+}
+.Coins_Policy h2{
+    color: var(--secondary-color);
+}

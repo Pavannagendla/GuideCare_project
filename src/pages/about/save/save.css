@@ -1,0 +1,85 @@
+.time {
+    width: calc(98.9vw);
+}
+.time .time1{
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 293px;
+    height: 33px;
+    left: 574px;
+    position: relative;
+    color: #2563EB;
+    margin: 20px 508px 0 0;
+}
+.time .time2{
+    font-family: "Nunito Sans";
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    color: #4D4D4D;
+    width: 622px;
+    height: 92px;
+    left: 409px;
+    margin-top: 20px;
+}
+.time .time3{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 411px;
+    margin-top: 40px;
+    margin-bottom: 76px;
+    width: 618px;
+    height: 22px;
+    line-height: 22px;
+    color:#000000;
+}
+@media (max-width: 360px) {
+.time {
+    width: 318px;
+    height: 92px;
+    margin-left: -390px;
+    margin-bottom: 100px;
+    margin-top: 260px;
+}
+.time .time1 {
+    width: 196px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -106px;
+}
+.time .time2 {
+    width: 318px;
+    height: 66px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.time .time3 {
+    width: 314px;
+    height: 32px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -18px;
+}
+}
+@media (min-width: 361px) and (max-width: 768px){
+    .time {
+        width: 768px;
+    }
+    .time .time1 {
+        margin: 0px 0px 0px -327px;
+    }
+    .time .time2{
+        left: 82px;
+        margin-top: 20px;
+    }
+    .time .time3 {
+        margin-left: 84px;
+        margin-bottom: 50px;
+    }
+}

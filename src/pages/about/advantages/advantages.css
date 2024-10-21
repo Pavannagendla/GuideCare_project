@@ -1,0 +1,288 @@
+.advantage{
+    display: flex;
+    flex: 1;
+
+}
+.advantage .left-ad .doc1-img {
+    width: calc(49vw);
+    height: 474px;
+    position: relative;
+    margin: 56px 0 56px 40px;
+}
+.right-ad .right-h1 {
+    font-family: "Nunito Sans";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin: 60px 0 100px 40px;
+
+}
+.rightside-text .p1{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    width: 536px;
+    margin: -80px 0 50px 141px;
+    position: relative;
+}
+
+.rightside-text .p2{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    width: 536px;
+    margin: -80px 0 50px 142px;
+    position: relative;
+}
+.rightside-text .p3{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    width: 536px;
+    margin: -80px 0 50px 141px;
+    position: relative;
+}
+.rightside-text .p4{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    width: 536px;
+    margin: -85px 0 50px 141px;
+    position: relative;
+}
+.rightside-text .p5{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    width: 536px;
+    margin: -85px 0 50px 141px;
+    position: relative;
+}
+.rightside-text .p6{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    width: 536px;
+    margin: -80px 0 50px 141px;
+    position: relative;
+}
+.rightside-text .icon-6 {
+    width: 35px;
+    height: 35px;
+    margin: -65px 0 50px 87px;
+}
+.rightside-text .icon-5 {
+    width: 35px;
+    height: 35px;
+    margin: -30px 0 50px 85px;
+}
+.rightside-text .icon-4 {
+    width: 26px;
+    height: 27px;
+    margin: -30px 0 53px 90px;
+}
+.rightside-text .icon-3 {
+    width: 31px;
+    height: 30px;
+    margin: -20px 0 50px 89px;
+}
+.rightside-text .icon-2 {
+    width: 28px;
+    height: 28px;
+    margin: -30px 0 50px 87px;
+}
+.rightside-text .icon-1 {
+    width: 35px;
+    height: 35px;
+    margin: -30px 0 50px 85px;
+}
+.rightside-text span>*{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width: 360px) {
+.advantage .left-ad .doc1-img {
+    width: 264px;
+    height: 200px;
+    margin-top: 126px;
+}
+.right-ad .right-h1 {
+    width: 318px;
+    height: 22px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -292px;
+    position: absolute;
+}
+.rightside-text {
+    display: flex;
+    position: relative;
+}
+.rightside-text .p1 {
+    width: 275px;
+    height: 19px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: -265px;
+    margin-top: 385px;
+    position: absolute;
+}
+.rightside-text .p2{
+    width: 231px;
+    height: 19px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: -265px;
+    margin-top: 428px;
+    position: absolute;
+}
+.rightside-text .p3{
+    width: 282px;
+    height: 19px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: -265px;
+    position: absolute;
+    margin-top: 465px;
+}
+.rightside-text .p4 {
+    width: 285px;
+    height: 38px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: -265px;
+    margin-top: 495px;
+    position: absolute;
+}
+.rightside-text .p5 {
+    width: 285px;
+    height: 38px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: -265px;
+    position: absolute;
+    margin-top: 544px;
+}
+.rightside-text .p6 {
+    width: 285px;
+    height: 38px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: -265px;
+    margin-top: 594px;
+    position: absolute;
+}
+.rightside-text .icon-6 {
+    width: 24px;
+    height: 29px;
+    margin-left: -300px;
+    color: #000000;
+    position: absolute;
+    margin-top: 380px;
+}
+.rightside-text .icon-5 {
+    width: 24px;
+    height: 29px;
+    margin-left: -300px;
+    color: #000000;
+    position: absolute;
+    margin-top: 425px;
+}
+.rightside-text .icon-4 {
+    width: 24px;
+    height: 29px;
+    margin-left: -300px;
+    color: #000000;
+    position: absolute;
+    margin-top: 460px;
+}
+.rightside-text .icon-3 {
+    width: 24px;
+    height: 29px;
+    margin-left: -300px;
+    color: #000000;
+    position: absolute;
+    margin-top: 500px;
+}
+.rightside-text .icon-2 {
+    width: 24px;
+    height: 29px;
+    margin-left: -300px;
+    color: #000000;
+    position: absolute;
+    margin-top: 540px;
+}
+.rightside-text .icon-1 {
+    width: 24px;
+    height: 29px;
+    margin-left: -300px;
+    color: #000000;
+    position: absolute;
+    margin-top: 588px;
+}
+}
+@media (min-width: 361px) and (max-width: 768px) {
+    .advantage .left-ad .doc1-img {
+        width: 570px;
+        height: 402px;
+        margin-left: 84px;
+        margin-top: 155px;
+    }
+    .right-ad .right-h1 {
+        margin-left: -597px;
+        width: 638px;
+    }
+    .rightside-text .p1{
+        margin: 490px 0 50px -504px;
+    }
+    
+    .rightside-text .p2{
+        margin: -80px 0 50px -504px;
+    }
+    .rightside-text .p3{
+        margin: -80px 0 50px -504px;
+    }
+    .rightside-text .p4{
+        margin: -85px 0 50px -504px;
+    }
+    .rightside-text .p5{
+        margin: -85px 0 50px -504px;
+    }
+    .rightside-text .p6{
+        margin: -80px 0 50px -504px;
+    }
+    .rightside-text .icon-6 {
+        margin: 0px 0 50px -552px;
+        position: absolute;
+    }
+    .rightside-text .icon-5 {
+        margin: -30px 0 50px -552px;
+    }
+    .rightside-text .icon-4 {
+        margin: -30px 0 53px -550px;
+    }
+    .rightside-text .icon-3 {
+        margin: -20px 0 50px -548px;
+    }
+    .rightside-text .icon-2 {
+        margin: -30px 0 50px -550px;
+    }
+    .rightside-text .icon-1 {
+        margin: -30px 0 50px -550px;
+    }
+}

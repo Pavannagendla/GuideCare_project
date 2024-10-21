@@ -1,0 +1,442 @@
+.flightbooking {
+    position: relative;
+    width: 600px;
+    height: 1008px;
+    padding: 20px;
+}
+
+.flightbooking-right {
+    position: fixed;
+    height: 100%;
+    /* width: 600px; */
+    width: 100vw;
+    z-index: 1;
+    overflow-y: auto;
+    top: 70px;
+    left: 10px;
+    padding: 20px;
+}
+
+.flightbooking-right .main-flight-img {
+    height: 2048px;
+    width: 1650px;
+    left: 712px;
+    opacity: 0.8;
+    position: absolute;
+    left: -507px;
+    object-fit: fill;
+}
+
+.flightbooking .flightbooking-leftside {
+    position: relative;
+    width: 712px;
+    flex: 1;
+    align-items: flex-start;
+    margin-left: -100px;
+    height: 100vh;
+    left: 712px;
+    z-index: 1;
+}
+
+.cou-date-time {
+    background: #27273F;
+    width: 712px;
+    height: 88px;
+    margin-top: 48px;
+}
+
+.cou-date-time .flight-country {
+    width: 290px;
+    height: 88px;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cou-date-time .flight-depart,
+.cou-date-time .flight-arrive {
+    width: 210px;
+    height: 88px;
+    padding: 24px;
+}
+
+.cou-date-time .flight-depart {
+    background: #605DEC;
+}
+
+.country-text1 {
+    font-size: 24;
+    font-weight: 800;
+    color: #FAFAFA;
+}
+
+.country-text2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #E9E8FC;
+}
+
+.flight-time {
+    font-size: 16px;
+    font-weight: 400;
+    color: #E9E8FC;
+}
+
+.flight-time-text {
+    font-size: 12px;
+    color: #E9E8FC;
+    font-weight: 400;
+}
+
+.flight-country i {
+    color: white;
+    font-size: 35px;
+}
+
+.flightbooking-left .seat-selection {
+    width: 712px;
+    height: 715px;
+    padding-top: 30px;
+    border-left: 1px solid #605DEC;
+}
+
+.seat-selection .seat-images .rightside-seat,
+.seat-selection .seat-images .leftside-seat {
+    width: 242px;
+    height: 182px;
+}
+
+.seat-img {
+    width: 117px;
+    height: 182px;
+}
+
+.flightbooking-left .eco-business {
+    padding: 30px;
+}
+
+.flightbooking-left .eco-business .economy {
+    width: 288px;
+    height: 302px;
+}
+
+.flightbooking-left .eco-business .business {
+    width: 288px;
+    height: 436px;
+}
+
+.eco-business span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6E7491;
+}
+
+.eco-business button {
+    width: 69px;
+    height: 22px;
+    background: linear-gradient(180deg, #605DEC 0%, #2A26D9 100%);
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 22px;
+    border-radius: 4px;
+}
+
+.eco-business p,
+.eco-business li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7C8DB0;
+}
+
+.eco-list,
+.business-list {
+    padding-left: 40px;
+}
+
+.eco-business li {
+    margin-top: 18px;
+}
+
+.eco-business .economy li::marker {
+    font-size: 20px;
+    color: #605DEC;
+}
+
+.eco-business .business li::marker {
+    font-size: 20px;
+    color: #5CD6C0;
+    content: "✔   ";
+    align-items: center;
+}
+
+.eco-line,
+.business-line {
+    width: 32px;
+    height: 4px;
+}
+
+.eco-line {
+    background: #605DEC;
+}
+
+.business-line {
+    background: #5CD6C0;
+}
+
+.flightbooking-left .passenger-detail {
+    width: 712px;
+    height: 97px;
+    border-left: 1px solid #605DEC;
+    border-top: 1px solid #605DEC;
+    padding: 24px;
+}
+
+.passenger-detail button {
+    height: 48px;
+    border: 1px solid #605DEC;
+    color: #605DEC;
+    background: white;
+    padding: 13px 20px 13px 20px;
+    border-radius: 4px;
+}
+
+.passenger-detail button:hover{
+    background: #605DEC;
+    color: white;
+}
+
+.passenger-text1 {
+    color: #7C8DB0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.passenger-text2 {
+    color: #7C8DB0;
+    font-size: 18px;
+    font-size: 600;
+}
+.passenger-detail hr{
+    display: none;
+}
+
+@media all and (max-width: 768px) {
+    .flightbooking {
+        padding: 0;
+        width: 400px;
+    }
+    .flightbooking-right .main-flight-img {
+        height: 2000px;
+        width: 1600px;
+        left: -600px;
+    }
+    .flightbooking-left{
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        width: 300px;
+    }
+    .flightbooking .flightbooking-leftside {
+        margin-left: -400px;
+        width: 450px;
+    }
+    .flightbooking-left .flight-process{
+        width: 450px;
+        padding: 0px 20px 0px 20px;
+    }
+    .flight-process .process-label{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .cou-date-time {
+        width: 450px;
+        height: 88px;
+        margin-top: 48px;
+    }
+    .seat-selection .seat-images .rightside-seat,
+    .seat-selection .seat-images .leftside-seat {
+        width: 200px;
+        height: 140px;
+    }
+    .flightbooking-left .seat-selection {
+        width: 450px;
+        height: 715px;
+        padding-top: 30px;
+    }
+    .flightbooking-left .passenger-detail {
+        width: 450px;
+        height: 97px;
+        padding: 10px;
+    }
+    .seat-img {
+        width: 85px;
+        height: 150px;
+    }
+    .eco-business p, .eco-business li{
+        font-size: 12px;
+    }
+    .cou-date-time .flight-depart,
+    .cou-date-time .flight-arrive{
+        text-wrap: nowrap;
+        padding: 24px 10px 24px 10px;
+    }
+    .flight-time {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .flight-time-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .country-text2{
+        text-wrap: nowrap;
+    }
+    .passenger-detail{
+        gap: 10px;
+    }
+    .passenger-detail button{
+        text-wrap: nowrap;
+        padding: 0;
+        padding: 0px 5px 0 5px;
+    }
+    .passenger-text1 {
+        font-size: 12px;
+    }
+    .passenger-text2 {
+        font-size: 16px;
+    }
+    .flight-hr{
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    /* .flightbooking{
+        width: 360px;
+        border: 1px solid black;
+        background-color: yellow;
+    } */
+    .flightbooking-right {
+        position: absolute;
+        height: 450px;
+        width: 380px;
+        z-index: 1000;
+        top: 80px;
+        left: 0px;
+        padding: 20px;
+        margin: 20px 0 20px 0;
+    }
+    .flightbooking-right .main-flight-img {
+        height: 1450px;
+        width: 1450px;
+        left: -630px;
+    }
+    .flightbooking-leftside{
+        width: 0px !important;
+    }
+    .flightbooking .flightbooking-left{
+        position: relative;
+        width: 335px;
+        flex: 0;
+        margin-left: -300px;
+        height: 100vh;
+        left: 0px;
+        z-index: 1;
+    }
+    .flightbooking-left .flight-process,
+    .flightbooking-left .seat-selection,
+    /* .flightbooking-left .cou-date-time, */
+    .flightbooking-left .passenger-detail{
+        width: 330px;
+        border: none;
+    }
+    .seat-selection .seat-images .rightside-seat,
+    .seat-selection .seat-images .leftside-seat {
+        width: 200px;
+        height: 140px;
+    }
+    .cou-date-time{
+        width: 330px;
+        margin-top: 500px;
+    }
+    .cou-date-time .flight-country{
+        width: 171px;
+        padding: 0;
+        height: 57px;
+        padding: 15px;
+    }
+    .cou-date-time .flight-depart,
+    .cou-date-time .flight-arrive{
+        width: 104px;
+        padding: 0;
+        height: 57px;
+        padding: 15px 10px 15px 10px;
+    }
+    .country-text1 {
+        font-size: 10px;
+    }
+    
+    .country-text2 {
+        font-size: 8px;
+    }
+    .flight-country i {
+        font-size: 20px;
+    }
+    .flight-time {
+        font-size: 10px;
+    }
+    .flight-time-text {
+        font-size: 8px;
+    }
+    .booking-seats{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        height: 600px;
+        justify-content: space-between !important;
+    }
+    .eco-business{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: space-between !important;
+        height: 950px;
+        position: absolute;
+        top: 800px;
+    }
+    .economy{
+        height: 250px !important;
+        border-bottom: 1px solid #7C8DB0;
+    }
+    .business{
+        height: 400px !important;
+    }
+    .flightbooking-left .passenger-detail{
+        margin-top: 450px;
+        height: 700px !important;
+        display: flex;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: space-between;
+    }
+    .pass-seatno{
+        width: 310px;
+        display: flex;
+        gap: 100px !important;
+        border-bottom: 1px solid #7C8DB0;
+        padding: 10px 10px 30px 10px;
+        border-top: 1px solid #7C8DB0;
+        text-wrap: nowrap;
+    }
+    .passenger-seat-buttons{
+        width: 310px;
+        display: flex;
+        gap: 80px !important;
+        margin-bottom: 30px;
+    }
+    
+}

@@ -1,0 +1,398 @@
+.abt-dot-section {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.nav1 {
+  list-style-type: none;
+  display: flex;
+  gap: 75px;
+  border-bottom: none !important;
+}
+
+.nav-link2 {
+  display: flex;
+  background: none;
+  border: none;
+}
+
+.online-booking,
+.book-a-doctor {
+  width: 422px;
+}
+
+.nav-link3 {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  gap: 10px;
+}
+
+.spanbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center!important;
+ padding-left: 30%;
+  
+}
+
+.nav-head1,
+.nav-head2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.nav-para1,
+.nav-para2 {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.spanbox-img img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-link2 .online-booking.active,
+.nav-link2 .book-a-doctor.active {
+  border-color: #007bff;
+  color: #0070CD;
+}
+.hr1,
+.hr2 {
+ border: 2px solid lightblue;
+ opacity: 1;
+
+}
+
+.hr1.active,
+.hr2.active {
+  border-color: #007bff;
+}
+#nav-tabContent {
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 20px;
+}
+
+.doctor-profiles-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.doctor-profile {
+  display: flex;
+  padding: 25px;
+}
+
+.doctor-profiles {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 16px 5px #22C55E80;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.doc-top {
+  display: flex;
+  align-items: center;
+  padding: 15px 22px;
+}
+
+.doc-prof-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.doc-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.doc-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-namespan {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.doc-titlespan {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.doc-rating-slot {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.one-rating-img {
+  width: 20px;
+  height: 20px;
+}
+
+.doc-rating {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.doc-visitors {
+  font-size: 12px;
+  color: #777;
+  padding-top: 5px;
+}
+
+.about-doc {
+  padding: 10px;
+}
+
+.specialization,
+.address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.sethescope,
+.locationblue {
+  width: 20px;
+  height: 20px;
+}
+
+.doc-speciality1,
+.doc-location {
+  font-size: 12px;
+}
+
+.app-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.appoint-btn {
+  width: 85%;
+  padding: 10px;
+  background-color: #22C55E;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.backicon-btn1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  cursor: pointer;
+  background: #eaeaea;
+  border: none;
+}
+
+.nexticon-btn1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  cursor: pointer;
+  background: #0070CD;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .abt-dot-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .abt-dot-section {
+    width: 768px;
+    align-items: center;
+    height: 450px;
+  }
+
+  .nav1 {
+    gap: 50px;
+    border-bottom: none !important;
+  }
+
+  .online-booking,
+  .book-a-doctor {
+    width: 300px;
+  }
+
+  .doc-namespan {
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .doc-titlespan {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .specialization,
+  .address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .doc-speciality1,
+  .doc-location {
+    font-size: 11px;
+  }
+
+  .backicon-btn1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 112%;
+    left: 300px;
+    z-index: 2;
+  }
+
+  .nexticon-btn1 {
+    width: 25px;
+    height: 25px;
+    right: 300px;
+    top: 112%;
+    z-index: 2;
+  }
+
+  #nav-tabContent {
+    padding-top: 0px;
+  }
+
+  .slick-dots {
+    padding-bottom: 50px;
+  }
+  .spanbox
+  {
+    padding-left: 15%;
+  }
+}
+
+@media (max-width: 360px) {
+  .abt-dot-section {
+    width: 360px;
+    margin-top: -100px;
+    align-items: center;
+  }
+  .spanbox
+  {
+    padding-left: 5%;
+  }
+  #nav-tabContent {
+    padding-top: 0px;
+  }
+
+  .nav1 {
+    gap: 15px;
+    border-bottom: none !important;
+  }
+
+  .nav-head1,
+  .nav-head2 {
+    font-size: 12px;
+  }
+
+  .nav-para1,
+  .nav-para2 {
+    padding-top: 5px;
+    width: 150px;
+  }
+
+  .doc-titlespan {
+    font-size: 9px;
+    font-weight: 600;
+    padding-top: 3px;
+  }
+
+  .doc-namespan {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .doc-visitors {
+    font-size: 10px;
+    color: #777;
+    padding-top: 5px;
+  }
+
+  .nav-link3 {
+    gap: 0px;
+  }
+
+  .online-booking,
+  .book-a-doctor {
+    width: 160px;
+  }
+
+  .spanbox-img img {
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
+}
+.doc-speciality1, .doc-location {
+  font-size: 10px;
+}
+.doctor-profile {
+  padding: 20px 20px;
+}
+.backicon-btn1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 109%;
+  left: 60px;
+  z-index: 2;
+}
+.nexticon-btn1 {
+  width: 25px;
+  height: 25px;
+  right: 60px;
+  top: 109%;
+  z-index: 2;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -37px !important;
+  width: 100% !important;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}

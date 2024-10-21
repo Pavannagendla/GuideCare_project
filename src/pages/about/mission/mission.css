@@ -1,0 +1,150 @@
+.our-mission {
+    width: calc(98.9vw);
+    height: 925px;
+    margin-top: 20px;
+    background: linear-gradient(64.94deg, #003279 -11.59%, #0097A6 79.91%);
+    border-radius: 10px;
+}
+.left-section .doc-img {
+    width: 678px;
+    height: 814px;
+    margin: 56px 0 56px 40px;
+    position: absolute;
+}
+.left-section .guide{
+    width: 710px;
+    height: 124px;
+    position: absolute;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -8px;
+    margin-left: 9px;
+    padding: 426px 38px 340px 91px;
+    z-index: 1;
+}
+.section-head .miss  {
+    width: 178px;
+    height: 44px;
+    position: absolute;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin: 242px 69px 241px 778px;
+    color: #FFFF;
+    z-index: 1;
+}
+.section-head .text1 {
+    width: 594px;
+    height: 155px;
+    position: absolute;
+    margin-top: 48px;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFF;
+    margin-left: 778px;
+    margin-top: 336px;
+}
+.section-head .text2 {
+    width: 594px;
+    height: 155px;
+    position: absolute;
+    margin-top: 41px;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFF;
+    margin-left: 778px;
+    margin-top: 510px;
+}
+@media (max-width: 360px) {
+.our-mission {
+    width: 360px;
+    height: 1067px;
+}
+.left-section .doc-img {
+    width: 340px;
+    height: 450px;
+    margin-left: 10px;
+}
+.left-section .guide {
+    width: 306px;
+    height: 72px;
+    left: -70px;
+    top: 377px;
+}
+.guide p {
+    width: 306px;
+    font-family: "Nunito Sans";
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.section-head .miss {
+    width: 156px;
+    height: 38px;
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 90px;
+    margin-top: 560px;
+}
+.section-head .text1 {
+    width: 324px;
+    height: 175px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 22px;
+    margin-top: 625px;
+}
+.section-head .text2 {
+    width: 324px;
+    height: 175px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 818px;
+    margin-left: 22px;
+}
+}
+@media (min-width: 361px) and (max-width: 768px) {
+    .our-mission {
+        width: 768px;
+        height: 1400px;
+    }
+    .left-section .doc-img {
+        width: 596px;
+        height: 734px;
+        margin-left: 98px;
+    }
+    .left-section .guide {
+        font-size: 16px;
+        font-weight: 700;
+        width: 702px;
+        height: 124px;
+        margin-left: 21px;
+    }
+    .section-head .miss {   
+        margin-left: 324px;
+        margin-top: 860px;
+    }
+    .section-head .text1 {
+        margin-left: 120px;
+        margin-top: 942px;
+        width: 580px;
+    }
+    .section-head .text2 {
+        margin-left: 120px;
+        margin-top: 1126px;
+        width: 580px;
+    }
+
+}
+
+
